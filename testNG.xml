@@ -1,0 +1,17 @@
+<suite name="Sample suite">
+	<listeners>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg" />
+</listeners>
+	<test name="ChromeTest">
+		<parameter name="browserName" value="chrome"></parameter>
+		<classes>
+			<class name="com.mavenJenkinsAllure.GoogleTests"></class>
+		</classes>
+	</test>
+	<test name="FirefoxTest">
+		<parameter name="browserName" value="Firefox"></parameter>
+		<classes>
+			<class name="com.mavenJenkinsAllure.GoogleTests"></class>
+		</classes>
+	</test>
+</suite>
