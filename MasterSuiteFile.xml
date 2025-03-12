@@ -1,0 +1,4 @@
+<suite name="MasterFile">
+		<suite-file path="testNG.xml"></suite-file>
+		<suite-file path="testNG2.xml"></suite-file>
+</suite>
